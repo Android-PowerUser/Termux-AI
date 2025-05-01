@@ -32,7 +32,7 @@ pkg i -y openssl openssl-tool npm
 npm install -g @dwmkerr/terminal-ai
 ```
 
-Run the tool to configure your environment and start interactively interfacing with AI:
+For run and configure:
 
 ```bash
 ai
