@@ -26,7 +26,10 @@
 Install Terminal AI:
 
 ```bash
-npm install @dwmkerr/terminal-ai
+pkg update
+pkg upgrade -y
+pkg i -y openssl openssl-tool npm
+npm install -g @dwmkerr/terminal-ai
 ```
 
 Run the tool to configure your environment and start interactively interfacing with AI:
