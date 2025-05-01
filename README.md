@@ -1,7 +1,7 @@
 <p align="center">
-  <h2 align="center"><code>🧠 Termux-ai</code></h2>
+  <h2 align="center"><code>🧠 Termux-AI</code></h2>
       <h3 align="center">Effortless AI in the shell. <br> FREE Gemini API key.</h3>
-      <h5 align="center">Supports OpenAI, Gemini, Claude, Ollama and many more</h5>
+      <h5 align="center">Supports  Gemini, Claude, OpenAi, Ollama and many more</h5>
   <p align="center">
       <img src="./docs/casts/terminal-ai-homepage.svg" alt="Demo Recording of Terminal AI" style="max-width: 100%;">
   </p>
@@ -37,11 +37,10 @@ For run and configure:
 ```bash
 ai
 ```
+Terminal AI requires an API key to be configured. Get a free API from Google by following the guide [here](#api-key) 💪. If you need to change your configuration, run `ai init` or check the [Configuration Documentation](./docs/configuration.md).
+
 
 That's it. The quickest way to learn how to use the tool is to look at the [Examples](#examples).
-
-> [!TIP]
-> Terminal AI requires an API key to be configured. Get a free API by following the guide [here](#api-key) 💪. If you need to change your configuration, run `ai init` or check the [Configuration Documentation](./docs/configuration.md).
 
 ## Examples
 
