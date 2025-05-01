@@ -1,6 +1,6 @@
 <p align="center">
   <h2 align="center"><code>🧠 Termux-ai</code></h2>
-      <h3 align="center">Effortless AI in the shell. Maintain your flow and be more effective.</h3>
+      <h3 align="center">Effortless AI in the shell. FREE Gemini API key.</h3>
       <h5 align="center">Supports OpenAI, Gemini, Claude, Ollama and many more</h5>
   <p align="center">
       <img src="./docs/casts/terminal-ai-homepage.svg" alt="Demo Recording of Terminal AI" style="max-width: 100%;">
