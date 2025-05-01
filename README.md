@@ -37,7 +37,7 @@ Run:
 ```bash
 ai
 ```
-Terminal AI requires an API key to be configured. Get [FREE Gemini API key](https://ai.google.dev/gemini-api/docs/api-key) and choose "Get a Gemini API Key" and then "Create API Key" or following the guide for [more](#api-key). If you need to change your configuration, run `ai init` or check the [Configuration Documentation](./docs/configuration.md).
+Terminal AI requires an API key to be configured. Get [FREE Gemini API key](https://makersuite.google.com/app/apikey) and choose "Get a Gemini API Key" and then "Create API Key" or following the guide for [more](#api-key). If you need to change your configuration, run `ai init` or check the [Configuration Documentation](./docs/configuration.md).
 
 
 That's it. The quickest way to learn how to use the tool is to look at the [Examples](#examples).
