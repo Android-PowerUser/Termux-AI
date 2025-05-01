@@ -58,9 +58,9 @@ Quick links:
 - [Adding a New Provider](#adding-a-new-provider)
 - [Advanced](#advanced)
 
-### Setup
+### Rerun Setup
 
-Setup your initial configuration with:
+Rerun setup the initial configuration with:
 
 ```bash
 ai init
