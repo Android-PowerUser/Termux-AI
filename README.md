@@ -1,9 +1,7 @@
 <p align="center">
-  <h2 align="center"><code>🧠 terminal-ai</code></h2>
-      <h3 align="center">Effortless AI in the shell. Maintain your flow and be more effective.</h3>
-      <h5 align="center">Supports OpenAI, Gemini, Claude, Ollama, MSTY, LiteLLM and many more.</h5>
+
   <p align="center">
-      <img src="./docs/casts/terminal-ai-homepage.svg" alt="Demo Recording of Terminal AI" style="max-width: 100%;">
+      <img src="./docs/casts/terminal-ai-homepage.svg" alt="Demo Recording of Termux AI" style="max-width: 100%;">
   </p>
   <p align="center">
     <a href="#quickstart">Quickstart</a> |
@@ -24,22 +22,24 @@
 
 ## Quickstart
 
-Install Terminal AI:
+Install Termux-AI:
 
 ```bash
-npm install @dwmkerr/terminal-ai
+pkg update
+pkg upgrade -y
+pkg i -y openssl openssl-tool npm
+npm install -g @dwmkerr/terminal-ai
 ```
 
-Run the tool to configure your environment and start interactively interfacing with AI:
+Run:
 
 ```bash
 ai
 ```
+Terminal AI requires an API key to be configured. Get [FREE Gemini API key](https://makersuite.google.com/app/apikey) or following the guide for [more](#api-key). If you need to change your configuration, run `ai init` or check the [Configuration Documentation](./docs/configuration.md).
+
 
 That's it. The quickest way to learn how to use the tool is to look at the [Examples](#examples).
-
-> [!TIP]
-> Terminal AI requires an API key to be configured. Get a free API by following the guide [here](#api-key) 💪. If you need to change your configuration, run `ai init` or check the [Configuration Documentation](./docs/configuration.md).
 
 ## Examples
 
@@ -57,9 +57,9 @@ Quick links:
 - [Adding a New Provider](#adding-a-new-provider)
 - [Advanced](#advanced)
 
-### Setup
+### Rerun Setup
 
-Setup your initial configuration with:
+Rerun setup the initial configuration with:
 
 ```bash
 ai init
