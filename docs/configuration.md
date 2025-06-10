@@ -213,4 +213,24 @@ providers:
     baseURL: https://api.anthropic.com/v1
     model: claude-3-opus-20240229
     apiKey: '123'
+  msty:
+    name: msty
+    type: openai_compatible
+    baseURL: http://localhost:10000/v1/
+    model: gemma3:1b
+    apiKey: 'notused'
+  ollama:
+    name: ollama
+    type: openai_compatible
+    baseURL: http://localhost:11434/v1/
+    model: gemma3:1b
+    apiKey: 'notused'
+  litellm:
+    name: litellm
+    type: openai_compatible
+    baseURL: http://localhost:4000/
+    model: claude-3.7
+    apiKey: 'notused'
 ```
+
+Additional configuration options can be set for [Integrations](./integrations.md).

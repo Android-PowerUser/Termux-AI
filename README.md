@@ -1,9 +1,7 @@
 <p align="center">
-  <h2 align="center"><code>🧠 Termux-AI</code></h2>
-      <h3 align="center">Effortless AI in the shell. <br> FREE Gemini API key.</h3>
-      <h5 align="center">Supports  Gemini, Claude, OpenAi, Ollama and many more</h5>
+
   <p align="center">
-      <img src="./docs/casts/terminal-ai-homepage.svg" alt="Demo Recording of Terminal AI" style="max-width: 100%;">
+      <img src="./docs/casts/terminal-ai-homepage.svg" alt="Demo Recording of Termux AI" style="max-width: 100%;">
   </p>
   <p align="center">
     <a href="#quickstart">Quickstart</a> |
@@ -12,7 +10,8 @@
     <a href="#commands">Commands</a> |
     <a href="#configuration">Configuration</a> |
     <a href="#api-key">API Key</a> |
-    <a href="#documentation">Documentation</a> |
+    <a href="#integrations">Integrations</a> |
+    <a href="#documentation">Documentation</a>
   </p>
   <p align="center">
     <a href="https://github.com/dwmkerr/terminal-ai/actions/workflows/cicd.yaml"><img src="https://github.com/dwmkerr/terminal-ai/actions/workflows/cicd.yaml/badge.svg" alt="cicd"></a>
@@ -335,9 +334,17 @@ export AI_MODEL="gpt-3.5-turbo"                 # Optional.
 
 To configure multiple providers or advanced options, check the [Configuration Documentation](./docs/configuration.md).
 
+## Integrations
+
+Integration is available out-of-the-box for [Langfuse](https://langfuse.com/). See the [Integrations Guide](./docs/integrations.md) for details.
+
 ## Documentation
 
 - [Configuration](./docs/configuration.md)
 - [Developer Guide](./docs/developer-guide.md)
+- [Integrations Guide](./docs/integrations.md)
+- [Providers: Setting Up Ollama](./docs/providers/ollama.md)
 - [Experimental Features](./docs/experimental-features.md)
 - [Providers: Setting Up Ollama](./docs/providers/ollama.md)
+- [Providers: Setting Up MSTY](./docs/providers/msty.md)
+- [Providers: Setting Up LiteLLM](./docs/providers/litellm.md)
